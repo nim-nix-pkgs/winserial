@@ -1,8 +1,0 @@
-{
-  "desc": "Serial library for Windows.",
-  "license": "MIT",
-  "name": "winserial",
-  "ref": "refs/heads/master",
-  "url": "https://github.com/bunkford/winserial",
-  "version": "master"
-}
