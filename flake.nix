@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."winserial-master".dir   = "master";
+  inputs."winserial-master".owner = "nim-nix-pkgs";
+  inputs."winserial-master".ref   = "master";
+  inputs."winserial-master".repo  = "winserial";
+  inputs."winserial-master".type  = "github";
+  inputs."winserial-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."winserial-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
