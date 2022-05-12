@@ -8,8 +8,17 @@
   "web": "https://github.com/bunkford/winserial",
   "doc": "https://bunkford.github.io/winserial/winserial.html",
   "refs": [
-    "fatal: unable to access 'https://github.com/bunkford/winserial/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "description": "Serial library for Windows.",
+      "license": "MIT",
+      "name": "winserial",
+      "ref": "refs/heads/master",
+      "url": "https://github.com/bunkford/winserial",
+      "version": "master"
+    }
+  ]
 }
